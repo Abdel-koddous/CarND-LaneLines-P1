@@ -149,8 +149,10 @@ Let's check the result in action:
 
 ### 3. Suggest possible improvements to your pipeline
 
-I can see for now two main improvements to be checked next:
+I can see for now 3 main improvements to be checked next:
 
 * First, by exploring the potential of other color spaces: such as HSV, HSL ...
-
-* Second, as we notice that our pipeline is working separatly on each frame, taking the information from previous frames could help give smoother and more accurate result
+  
+* Second, parameter tuning in the pipeline (canny edge detection, hough transform parameters, RoI) needs to be improved. One possibility could be through a grid search method.
+  
+* Finally, as we notice that our pipeline is working separatly on each frame, taking the information from previous frames could help give smoother and more accurate result
